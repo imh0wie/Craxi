@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: url("https://media.giphy.com/media/3oxRmD9a5pLTOOLigM/giphy.gif");
+}
+
+h1 {
+  position: relative;
+  bottom: 60px;
+  font-family: 'Anton', sans-serif;
+  font-size: 105px;
+  color: yellow;
+  transform: scalex(1.25);
+  text-align-last: center;
+  text-shadow: -2px 0 #a5a5a5, 0 2px #a5a5a5, 2px 0 #a5a5a5, 0 -2px #a5a5a5;
+}
+
+.platform-container {
+  display: flex;
+}
+
+.controls-container {
+  display: none;
+}
+
+.platform {
+  display: none;
+  margin: 0 auto;
+  width: 700px;
+  height: 500px;
+}
+
+.scoreboard-container {
+  display: none;
+}
