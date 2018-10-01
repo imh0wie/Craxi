@@ -18,21 +18,24 @@ h1 {
   text-shadow: -2px 0 #a5a5a5, 0 2px #a5a5a5, 2px 0 #a5a5a5, 0 -2px #a5a5a5;
 }
 
-.platform-container {
+.display-container {
   display: flex;
+  position: relative;
+  bottom: 125px;
 }
 
 .controls-container {
-  display: none;
+  /* width: 100px;
+  height: 600px; */
 }
 
-.platform {
-  display: none;
+canvas {
   margin: 0 auto;
-  width: 700px;
-  height: 500px;
+  width: 725px;
+  height: 600px;
+  border: 1px solid black;
 }
 
 .scoreboard-container {
-  display: none;
+  /* display: none; */
 }
