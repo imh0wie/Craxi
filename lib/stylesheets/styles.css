@@ -29,10 +29,8 @@ h1 {
   height: 600px; */
 }
 
-canvas {
+#display {
   margin: 0 auto;
-  width: 725px;
-  height: 600px;
   border: 1px solid black;
 }
 
