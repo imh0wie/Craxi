@@ -37,6 +37,8 @@ h1 {
 }
 
 #display {
+  position: relative;
+  top: 60px;
   margin: -55px auto;
   border: 1px solid black;
 }

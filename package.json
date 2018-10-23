@@ -20,6 +20,8 @@
   "homepage": "https://github.com/h0wiechan/Craxi#readme",
   "dependencies": {
     "firebase": "^5.4.0",
+    "three": "^0.97.0",
+    "typefaces": "0.0.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1"
   }
