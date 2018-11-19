@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/h0wiechan/Craxi#readme",
   "dependencies": {
-    "firebase": "^5.4.0",
+    "firebase": "^5.5.7",
     "three": "^0.97.0",
     "typefaces": "0.0.1",
     "webpack": "^4.20.2",

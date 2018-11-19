@@ -7,37 +7,19 @@ body {
   background: url("https://static.vecteezy.com/system/resources/previews/000/115/358/non_2x/top-view-roundabout-vector.jpg");
 }
 
-h1 {
-  display: block;
-  position: relative;
-  bottom: 60px;
-  background-color: #f96d6b;  
-  margin: 70px auto 0px auto;
-  width: 400px;
-  font-family: 'Anton', sans-serif;
-  font-size: 75px;
-  color: yellow;
-  transform: scalex(1.25);
-  text-align-last: center;
-  text-shadow: -2px 0 #a5a5a5, 0 2px #a5a5a5, 2px 0 #a5a5a5, 0 -2px #a5a5a5;
-  border: 1px solid yellow;
-  border-radius: 35px;
-}
-
-.display-container {
+.screen-container {
   display: flex;
 }
 
-.instructions-container {
+.left {
   width: 300px;
   height: 600px;
+  margin: 0 25px;
 }
 
 
 
-.instructions-header {
-  position: relative;
-  left: 30px;
+.left h2 {
   background: #f96d6b;
   border: 1px solid;
   border-radius: 20px;
@@ -49,9 +31,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.instructions-body {
-  position: relative;
-    left: 30px;
+.left p {
     padding: 10px;
     background: #009688;
     border-radius: 7px;
@@ -62,63 +42,64 @@ h1 {
     margin: 0px;
 }
 
-/* .instructions {
-  position: relative;
-  left: 30px;
-  width: 300px;
-  height: 300px;
-  background: #f2f2f2;
-  opacity: 0.6;
-  z-index: -1;
-} */
-
-.instructions-img {
-  position: relative;
-  left: 30px;
+.left img {
   width: 100%;
-  /* background: url(../../assets/images/left-right.png);
-  background-size: cover;
-  opacity: 1.0;
-  z-index: 1; */
 }
 
-/* .instructions-img-container {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  background: #f2f2f2;
-  opacity: 0.6;
-  z-index: -1;
-} */
-
-#display {
-  width: 45%;
-  margin: 40px auto;
-  border: 1px solid black;
-    /* height: 0%; */
-    /* position: relative; */
-    /* top: 60px; */
-}
-
-.scoreboard-container {
-  width: 300px;
+.middle {
+  width: 725px;
   height: 600px;
 }
 
-.personal-info-container {
-  width: 200px;
-  padding: 20px;
-  background-color: #f2f2f2;
-  opacity: 0.7;
+#display {
+  width: 85%;
+  height: 100%;
+  margin: 60px 70px 0;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px 3px #333;
 }
 
-.personal-info-msg {
+.right {
+  width: 350px;
+}
+
+.right .scoreboard-container {
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 3px;
+  background-color: #1471bb;
+  opacity: 0.9;
+  box-shadow: 0px 0px 0px 1px #ffff00;
+}
+
+.right .scoreboard-container h2 {
+  color: #ffff00;
+  font-family: 'Teko', sans-serif;
+  font-size: 44px;
+  text-align: center;
+  background-color: #1471bb;
+  border-radius: 3px;
+  box-shadow: 0px 0px 0px 1px;
+}
+
+.right .personal-info {
+  width: 200px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+.right .personal-info p {
   font-family: 'Teko', sans-serif;
   font-size: 24px;
   text-align: center;
 }
 
-.personal-info {
+.right .personal-info .links {
   display: flex;
   justify-content: space-between;
 }
