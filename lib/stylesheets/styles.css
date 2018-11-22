@@ -52,11 +52,31 @@ body {
 }
 
 #display {
-  width: 85%;
-  height: 100%;
-  margin: 60px 70px 0;
+  width: 100%;
+  height: 105%;
+  margin-top: 60px;
   border-radius: 3px;
   box-shadow: 3px 3px 3px 3px #333;
+}
+
+.middle input {
+  display: block;
+  position: relative;
+  bottom: 200px;
+  width: 100px;
+  margin: 0 auto;
+  font-family: 'Teko', sans-serif;
+  font-size: 27px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.middle .alert {
+  border: 1px solid red;
+}
+
+.middle .none {
+  display: none;
 }
 
 .right {
