@@ -101,7 +101,26 @@ body {
   text-align: center;
   background-color: #1471bb;
   border-radius: 3px;
-  box-shadow: 0px 0px 0px 1px;
+  box-shadow: 0 0 0 1px;
+  margin: 0;
+}
+
+.right .scoreboard-container table {
+  width: 100%;
+  font-family: 'Teko', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.right .scoreboard-container table {
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+  color: #f1f600;
+  font-family: 'Teko', sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
 }
 
 .right .personal-info {
