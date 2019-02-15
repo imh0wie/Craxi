@@ -1,7 +1,7 @@
 # Craxi
 [Live!](http://www.h0wiechan.com/Craxi/)
 
-![knight-drive-screenshot](assets/images/craxi-preview.png)
+![Craxi-screenshot](assets/images/craxi-preview.png)
 
 Craxi is a car-dodging game inspired by Google's T-Rex Runner, built with Vanilla JavaScript. All game graphics of the game are handled by the HTML Canvas API.
 
